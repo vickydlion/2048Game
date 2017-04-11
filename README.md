@@ -1,6 +1,8 @@
 # 2048Game
 Purely Console Based Application.
 
+<h1>Open game.html in any browser, to get started with the 2048 game.</h1>
+
 Please use game.move() method call to move your tiles to left, right, up and down based on user input with one of 1, 2, 3, 4 as left, right, up, down.
 
 <h1>Initialize 2048 Game</h1>
