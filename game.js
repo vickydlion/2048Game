@@ -60,17 +60,16 @@ Game.prototype.updateScoreAndCheckForWinningPoint = function (score) {
 Game.prototype.move = function (direction) {
 
   if (this.gameOver || this.gameWon) {
-    if (this.gameOver) {
+    
       this.grid.printGrid();
       console.log("Your Score :" + this.score);
       console.log("Your Best Score :" + this.bestScore);
+    
+    if (this.gameOver) {
       return "Game Over. Please Start a New Game";
     }
 
     if (this.gameWon) {
-      this.grid.printGrid();
-      console.log("Your Score :" + this.score);
-      console.log("Your Best Score :" + this.bestScore);
       return "Congratulations!!! You Have Won The Game!";
     }
   }
